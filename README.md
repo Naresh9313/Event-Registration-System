@@ -7,7 +7,7 @@
 3 step :  
 register api  url POST
 http://localhost:5000/api/auth/register 
-{
+Example {
   "name": "Naresh Prajapati",
   "email": "naresh123.com",
   "password": "password123"
@@ -15,7 +15,8 @@ http://localhost:5000/api/auth/register
 
 login api url POST
 http://localhost:5000/api/auth/login
-{
+
+Example{
   "email": "naresh123.com",
   "password": "password123"
 }
@@ -24,7 +25,7 @@ Event api  url POST
 Authorization select Bearer Token-> paste token
 headers ma key ma  select  Authorization & value ma token 
 http://localhost:5000/api/events/
-{
+Example {
   "title": "Naresh Prajapati",
   "description": "Latest in tech",
   "date": "2025-06-15T10:00:00Z",
