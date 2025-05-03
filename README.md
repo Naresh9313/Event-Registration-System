@@ -4,6 +4,29 @@
        frontend side run in : npm start 
        backend  side run in : nodemon index.js
 
+#Mail
+EMAIL_HOST=smtp.gmail.com      
+EMAIL_PORT=587                   
+EMAIL_SECURE=false                
+EMAIL_USER=Email Id,
+EMAIL_PASS=App password,
+EMAIL_FROM="Event App "
+
+#Mongodb  connection 
+MONGODB_URI=mongodb://localhost:27017/EventRegistrationSystem
+
+![image](https://github.com/user-attachments/assets/28e79482-6aa7-45e7-b36c-e7373ccff7fe)
+
+users
+![image](https://github.com/user-attachments/assets/a9602531-9cdf-4eb2-a22d-c0cfe9569abc)
+
+event
+![image](https://github.com/user-attachments/assets/e68affed-73ee-48ac-914c-fd448e12a1fa)
+
+register
+![image](https://github.com/user-attachments/assets/e8b7fa84-4e25-4e16-b460-9717912e6142)
+
+
 3 step :  
 register api  url POST
 http://localhost:5000/api/auth/register 
