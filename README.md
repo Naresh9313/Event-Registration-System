@@ -1,4 +1,5 @@
 1step :Clone for Github  git clone " "
+
 2step: frontend & backend  both are  npm i   
        frontend side run in : npm start 
        backend  side run in : nodemon index.js
