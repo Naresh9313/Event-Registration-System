@@ -1,4 +1,4 @@
-1step :Clone for Github  git clone " "
+1step :Clone for Github  git clone "https://github.com/Naresh9313/Event-Registration-System.git"
 
 2step: frontend & backend  both are  npm i   
        frontend side run in : npm start 
